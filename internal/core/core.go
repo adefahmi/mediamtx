@@ -45,6 +45,7 @@ var defaultConfPaths = []string{
 	"/usr/local/etc/mediamtx.yml",
 	"/usr/etc/mediamtx.yml",
 	"/etc/mediamtx/mediamtx.yml",
+	"env.yml",
 }
 
 var cli struct {
