@@ -40,11 +40,12 @@ import (
 var version []byte
 
 var defaultConfPaths = []string{
-	"rtsp-simple-server.yml",
-	"mediamtx.yml",
-	"/usr/local/etc/mediamtx.yml",
-	"/usr/etc/mediamtx.yml",
-	"/etc/mediamtx/mediamtx.yml",
+	// "rtsp-simple-server.yml",
+	// "mediamtx.yml",
+	// "/usr/local/etc/mediamtx.yml",
+	// "/usr/etc/mediamtx.yml",
+	// "/etc/mediamtx/mediamtx.yml",
+	"/opt/comprezy/config/env.yml",
 	"env.yml",
 }
 
